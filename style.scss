@@ -1,0 +1,341 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?nkd1s7');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?nkd1s7#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?nkd1s7') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?nkd1s7') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?nkd1s7##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.add_user {
+  &:before {
+    content: $add_user; 
+  }
+}
+.add {
+  &:before {
+    content: $add; 
+  }
+}
+.arrow_down {
+  &:before {
+    content: $arrow_down; 
+  }
+}
+.arrow_left {
+  &:before {
+    content: $arrow_left; 
+  }
+}
+.arrow_long_down {
+  &:before {
+    content: $arrow_long_down; 
+  }
+}
+.arrow_long_left {
+  &:before {
+    content: $arrow_long_left; 
+  }
+}
+.arrow_long_right {
+  &:before {
+    content: $arrow_long_right; 
+  }
+}
+.arrow_long_top {
+  &:before {
+    content: $arrow_long_top; 
+  }
+}
+.arrow_right {
+  &:before {
+    content: $arrow_right; 
+  }
+}
+.arrow_top {
+  &:before {
+    content: $arrow_top; 
+  }
+}
+.bino {
+  &:before {
+    content: $bino; 
+  }
+}
+.bus_alt {
+  &:before {
+    content: $bus_alt; 
+  }
+}
+.bus_stop_alt {
+  &:before {
+    content: $bus_stop_alt; 
+  }
+}
+.bus_stop {
+  &:before {
+    content: $bus_stop; 
+  }
+}
+.bus {
+  &:before {
+    content: $bus; 
+  }
+}
+.calendar {
+  &:before {
+    content: $calendar; 
+  }
+}
+.call {
+  &:before {
+    content: $call; 
+  }
+}
+.check {
+  &:before {
+    content: $check; 
+  }
+}
+.close {
+  &:before {
+    content: $close; 
+  }
+}
+.displaty_table_alt {
+  &:before {
+    content: $displaty_table_alt; 
+  }
+}
+.display_table {
+  &:before {
+    content: $display_table; 
+  }
+}
+.docu {
+  &:before {
+    content: $docu; 
+  }
+}
+.download_alt {
+  &:before {
+    content: $download_alt; 
+  }
+}
+.download {
+  &:before {
+    content: $download; 
+  }
+}
+.edit_alt {
+  &:before {
+    content: $edit_alt; 
+  }
+}
+.edit {
+  &:before {
+    content: $edit; 
+  }
+}
+.filter {
+  &:before {
+    content: $filter; 
+  }
+}
+.gps {
+  &:before {
+    content: $gps; 
+  }
+}
+.list_alt {
+  &:before {
+    content: $list_alt; 
+  }
+}
+.list_select {
+  &:before {
+    content: $list_select; 
+  }
+}
+.list {
+  &:before {
+    content: $list; 
+  }
+}
+.login_alt {
+  &:before {
+    content: $login_alt; 
+  }
+}
+.login {
+  &:before {
+    content: $login; 
+  }
+}
+.logout_alt {
+  &:before {
+    content: $logout_alt; 
+  }
+}
+.logout {
+  &:before {
+    content: $logout; 
+  }
+}
+.menu {
+  &:before {
+    content: $menu; 
+  }
+}
+.message {
+  &:before {
+    content: $message; 
+  }
+}
+.narrow {
+  &:before {
+    content: $narrow; 
+  }
+}
+.package_upload {
+  &:before {
+    content: $package_upload; 
+  }
+}
+.pin_alt {
+  &:before {
+    content: $pin_alt; 
+  }
+}
+.pin {
+  &:before {
+    content: $pin; 
+  }
+}
+.play {
+  &:before {
+    content: $play; 
+  }
+}
+.radar {
+  &:before {
+    content: $radar; 
+  }
+}
+.refresh {
+  &:before {
+    content: $refresh; 
+  }
+}
+.remove_user {
+  &:before {
+    content: $remove_user; 
+  }
+}
+.remove {
+  &:before {
+    content: $remove; 
+  }
+}
+.report {
+  &:before {
+    content: $report; 
+  }
+}
+.search {
+  &:before {
+    content: $search; 
+  }
+}
+.simul {
+  &:before {
+    content: $simul; 
+  }
+}
+.sort_asc {
+  &:before {
+    content: $sort_asc; 
+  }
+}
+.sort_desc {
+  &:before {
+    content: $sort_desc; 
+  }
+}
+.table {
+  &:before {
+    content: $table; 
+  }
+}
+.trash_alt .path1 {
+  &:before {
+    content: $trash_alt-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.trash_alt .path2 {
+  &:before {
+    content: $trash_alt-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.trash_alt .path3 {
+  &:before {
+    content: $trash_alt-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.trash_alt .path4 {
+  &:before {
+    content: $trash_alt-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.trash {
+  &:before {
+    content: $trash; 
+  }
+}
+.user_alt {
+  &:before {
+    content: $user_alt; 
+  }
+}
+.user {
+  &:before {
+    content: $user; 
+  }
+}
+.users_alt {
+  &:before {
+    content: $users_alt; 
+  }
+}
+.users {
+  &:before {
+    content: $users; 
+  }
+}
+
