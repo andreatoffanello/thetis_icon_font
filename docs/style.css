@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'thetis_icon';
-  src:  url('fonts/thetis_icon.eot?nkd1s7');
-  src:  url('fonts/thetis_icon.eot?nkd1s7#iefix') format('embedded-opentype'),
-    url('fonts/thetis_icon.ttf?nkd1s7') format('truetype'),
-    url('fonts/thetis_icon.woff?nkd1s7') format('woff'),
-    url('fonts/thetis_icon.svg?nkd1s7#thetis_icon') format('svg');
+  src:  url('fonts/thetis_icon.eot?96w7sr');
+  src:  url('fonts/thetis_icon.eot?96w7sr#iefix') format('embedded-opentype'),
+    url('fonts/thetis_icon.ttf?96w7sr') format('truetype'),
+    url('fonts/thetis_icon.woff?96w7sr') format('woff'),
+    url('fonts/thetis_icon.svg?96w7sr#thetis_icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,193 +24,183 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.add_user:before {
+.add:before {
   content: "\e900";
 }
-.add:before {
+.alert:before {
   content: "\e901";
 }
-.arrow_down:before {
+.arrow_down_long:before {
   content: "\e902";
 }
-.arrow_left:before {
+.arrow_down:before {
   content: "\e903";
 }
-.arrow_long_down:before {
+.arrow_left_long:before {
   content: "\e904";
 }
-.arrow_long_left:before {
+.arrow_left:before {
   content: "\e905";
 }
-.arrow_long_right:before {
+.arrow_right_long:before {
   content: "\e906";
 }
-.arrow_long_top:before {
+.arrow_right:before {
   content: "\e907";
 }
-.arrow_right:before {
+.arrow_up_long:before {
   content: "\e908";
 }
-.arrow_top:before {
+.arrow_up:before {
   content: "\e909";
 }
-.bino:before {
+.bell:before {
   content: "\e90a";
 }
-.bus_alt:before {
+.binocular:before {
   content: "\e90b";
 }
-.bus_stop_alt:before {
+.books:before {
   content: "\e90c";
 }
-.bus_stop:before {
+.bus:before {
   content: "\e90d";
 }
-.bus:before {
+.calendar:before {
   content: "\e90e";
 }
-.calendar:before {
+.call:before {
   content: "\e90f";
 }
-.call:before {
+.check:before {
   content: "\e910";
 }
-.check:before {
+.close:before {
   content: "\e911";
 }
-.close:before {
+.coincidence:before {
   content: "\e912";
 }
-.displaty_table_alt:before {
+.deviation:before {
   content: "\e913";
 }
-.display_table:before {
+.display:before {
   content: "\e914";
 }
-.docu:before {
+.download:before {
   content: "\e915";
 }
-.download_alt:before {
+.edit:before {
   content: "\e916";
 }
-.download:before {
+.error:before {
   content: "\e917";
 }
-.edit_alt:before {
+.filter:before {
   content: "\e918";
 }
-.edit:before {
+.gps:before {
   content: "\e919";
 }
-.filter:before {
+.help:before {
   content: "\e91a";
 }
-.gps:before {
+.home:before {
   content: "\e91b";
 }
-.list_alt:before {
+.info:before {
   content: "\e91c";
 }
-.list_select:before {
+.insert:before {
   content: "\e91d";
 }
-.list:before {
+.linear_view:before {
   content: "\e91e";
 }
-.login_alt:before {
+.list:before {
   content: "\e91f";
 }
 .login:before {
   content: "\e920";
 }
-.logout_alt:before {
+.logout:before {
   content: "\e921";
 }
-.logout:before {
+.maintenance:before {
   content: "\e922";
 }
-.menu:before {
+.map:before {
   content: "\e923";
 }
-.message:before {
+.match:before {
   content: "\e924";
 }
-.narrow:before {
+.menu:before {
   content: "\e925";
 }
-.package_upload:before {
+.message:before {
   content: "\e926";
 }
-.pin_alt:before {
+.narrow:before {
   content: "\e927";
 }
 .pin:before {
   content: "\e928";
 }
-.play:before {
+.planification:before {
   content: "\e929";
 }
-.radar:before {
+.play:before {
   content: "\e92a";
 }
-.refresh:before {
+.radar:before {
   content: "\e92b";
 }
-.remove_user:before {
+.refresh:before {
   content: "\e92c";
 }
 .remove:before {
   content: "\e92d";
 }
-.report:before {
+.restart:before {
   content: "\e92e";
 }
 .search:before {
   content: "\e92f";
 }
-.simul:before {
+.sort_asc:before {
   content: "\e930";
 }
-.sort_asc:before {
+.sort_desc:before {
   content: "\e931";
 }
-.sort_desc:before {
+.stats:before {
   content: "\e932";
 }
-.table:before {
+.status:before {
   content: "\e933";
 }
-.trash_alt .path1:before {
+.stop:before {
   content: "\e934";
-  color: rgb(0, 0, 0);
 }
-.trash_alt .path2:before {
+.table:before {
   content: "\e935";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.trash_alt .path3:before {
-  content: "\e936";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.trash_alt .path4:before {
-  content: "\e937";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
 }
 .trash:before {
+  content: "\e936";
+}
+.upload:before {
+  content: "\e937";
+}
+.user_add:before {
   content: "\e938";
 }
-.user_alt:before {
+.user_remove:before {
   content: "\e939";
 }
 .user:before {
   content: "\e93a";
 }
-.users_alt:before {
-  content: "\e93b";
-}
 .users:before {
-  content: "\e93c";
+  content: "\e93b";
 }

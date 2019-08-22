@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?nkd1s7');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?nkd1s7#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?nkd1s7') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?nkd1s7') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?nkd1s7##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?96w7sr');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?96w7sr#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?96w7sr') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?96w7sr') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?96w7sr##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,14 +26,19 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.add_user {
-  &:before {
-    content: $add_user; 
-  }
-}
 .add {
   &:before {
     content: $add; 
+  }
+}
+.alert {
+  &:before {
+    content: $alert; 
+  }
+}
+.arrow_down_long {
+  &:before {
+    content: $arrow_down_long; 
   }
 }
 .arrow_down {
@@ -41,29 +46,19 @@ i {
     content: $arrow_down; 
   }
 }
+.arrow_left_long {
+  &:before {
+    content: $arrow_left_long; 
+  }
+}
 .arrow_left {
   &:before {
     content: $arrow_left; 
   }
 }
-.arrow_long_down {
+.arrow_right_long {
   &:before {
-    content: $arrow_long_down; 
-  }
-}
-.arrow_long_left {
-  &:before {
-    content: $arrow_long_left; 
-  }
-}
-.arrow_long_right {
-  &:before {
-    content: $arrow_long_right; 
-  }
-}
-.arrow_long_top {
-  &:before {
-    content: $arrow_long_top; 
+    content: $arrow_right_long; 
   }
 }
 .arrow_right {
@@ -71,29 +66,29 @@ i {
     content: $arrow_right; 
   }
 }
-.arrow_top {
+.arrow_up_long {
   &:before {
-    content: $arrow_top; 
+    content: $arrow_up_long; 
   }
 }
-.bino {
+.arrow_up {
   &:before {
-    content: $bino; 
+    content: $arrow_up; 
   }
 }
-.bus_alt {
+.bell {
   &:before {
-    content: $bus_alt; 
+    content: $bell; 
   }
 }
-.bus_stop_alt {
+.binocular {
   &:before {
-    content: $bus_stop_alt; 
+    content: $binocular; 
   }
 }
-.bus_stop {
+.books {
   &:before {
-    content: $bus_stop; 
+    content: $books; 
   }
 }
 .bus {
@@ -121,24 +116,19 @@ i {
     content: $close; 
   }
 }
-.displaty_table_alt {
+.coincidence {
   &:before {
-    content: $displaty_table_alt; 
+    content: $coincidence; 
   }
 }
-.display_table {
+.deviation {
   &:before {
-    content: $display_table; 
+    content: $deviation; 
   }
 }
-.docu {
+.display {
   &:before {
-    content: $docu; 
-  }
-}
-.download_alt {
-  &:before {
-    content: $download_alt; 
+    content: $display; 
   }
 }
 .download {
@@ -146,14 +136,14 @@ i {
     content: $download; 
   }
 }
-.edit_alt {
-  &:before {
-    content: $edit_alt; 
-  }
-}
 .edit {
   &:before {
     content: $edit; 
+  }
+}
+.error {
+  &:before {
+    content: $error; 
   }
 }
 .filter {
@@ -166,14 +156,29 @@ i {
     content: $gps; 
   }
 }
-.list_alt {
+.help {
   &:before {
-    content: $list_alt; 
+    content: $help; 
   }
 }
-.list_select {
+.home {
   &:before {
-    content: $list_select; 
+    content: $home; 
+  }
+}
+.info {
+  &:before {
+    content: $info; 
+  }
+}
+.insert {
+  &:before {
+    content: $insert; 
+  }
+}
+.linear_view {
+  &:before {
+    content: $linear_view; 
   }
 }
 .list {
@@ -181,24 +186,29 @@ i {
     content: $list; 
   }
 }
-.login_alt {
-  &:before {
-    content: $login_alt; 
-  }
-}
 .login {
   &:before {
     content: $login; 
   }
 }
-.logout_alt {
-  &:before {
-    content: $logout_alt; 
-  }
-}
 .logout {
   &:before {
     content: $logout; 
+  }
+}
+.maintenance {
+  &:before {
+    content: $maintenance; 
+  }
+}
+.map {
+  &:before {
+    content: $map; 
+  }
+}
+.match {
+  &:before {
+    content: $match; 
   }
 }
 .menu {
@@ -216,19 +226,14 @@ i {
     content: $narrow; 
   }
 }
-.package_upload {
-  &:before {
-    content: $package_upload; 
-  }
-}
-.pin_alt {
-  &:before {
-    content: $pin_alt; 
-  }
-}
 .pin {
   &:before {
     content: $pin; 
+  }
+}
+.planification {
+  &:before {
+    content: $planification; 
   }
 }
 .play {
@@ -246,29 +251,19 @@ i {
     content: $refresh; 
   }
 }
-.remove_user {
-  &:before {
-    content: $remove_user; 
-  }
-}
 .remove {
   &:before {
     content: $remove; 
   }
 }
-.report {
+.restart {
   &:before {
-    content: $report; 
+    content: $restart; 
   }
 }
 .search {
   &:before {
     content: $search; 
-  }
-}
-.simul {
-  &:before {
-    content: $simul; 
   }
 }
 .sort_asc {
@@ -281,36 +276,24 @@ i {
     content: $sort_desc; 
   }
 }
+.stats {
+  &:before {
+    content: $stats; 
+  }
+}
+.status {
+  &:before {
+    content: $status; 
+  }
+}
+.stop {
+  &:before {
+    content: $stop; 
+  }
+}
 .table {
   &:before {
     content: $table; 
-  }
-}
-.trash_alt .path1 {
-  &:before {
-    content: $trash_alt-path1;  
-    color: rgb(0, 0, 0);
-  }
-}
-.trash_alt .path2 {
-  &:before {
-    content: $trash_alt-path2;  
-    margin-left: -1em;  
-    color: rgb(255, 255, 255);
-  }
-}
-.trash_alt .path3 {
-  &:before {
-    content: $trash_alt-path3;  
-    margin-left: -1em;  
-    color: rgb(255, 255, 255);
-  }
-}
-.trash_alt .path4 {
-  &:before {
-    content: $trash_alt-path4;  
-    margin-left: -1em;  
-    color: rgb(255, 255, 255);
   }
 }
 .trash {
@@ -318,19 +301,24 @@ i {
     content: $trash; 
   }
 }
-.user_alt {
+.upload {
   &:before {
-    content: $user_alt; 
+    content: $upload; 
+  }
+}
+.user_add {
+  &:before {
+    content: $user_add; 
+  }
+}
+.user_remove {
+  &:before {
+    content: $user_remove; 
   }
 }
 .user {
   &:before {
     content: $user; 
-  }
-}
-.users_alt {
-  &:before {
-    content: $users_alt; 
   }
 }
 .users {
