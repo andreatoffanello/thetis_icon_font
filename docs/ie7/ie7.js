@@ -13,6 +13,17 @@
 		el.innerHTML = '<span style="font-family: \'thetis_icon\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'arrival_time': '&#xe93c;',
+		'departure_time': '&#xe93d;',
+		'doc_folder': '&#xe93e;',
+		'doc_page': '&#xe93f;',
+		'doc_table': '&#xe940;',
+		'expand_1': '&#xe941;',
+		'expand': '&#xe942;',
+		'minimize': '&#xe943;',
+		'more': '&#xe944;',
+		'reduce': '&#xe945;',
+		'walk': '&#xe946;',
 		'add': '&#xe900;',
 		'alert': '&#xe901;',
 		'arrow_down_long': '&#xe902;',
