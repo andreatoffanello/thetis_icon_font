@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?yk47ib');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?yk47ib#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?yk47ib') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?yk47ib') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?yk47ib##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?h1eti8');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?h1eti8#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?h1eti8') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?h1eti8') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?h1eti8##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,359 +27,359 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.arrival_time {
+.icon_arrival_time {
   &:before {
-    content: $arrival_time; 
+    content: $icon_arrival_time; 
   }
 }
-.departure_time {
+.icon_departure_time {
   &:before {
-    content: $departure_time; 
+    content: $icon_departure_time; 
   }
 }
-.doc_folder {
+.icon_doc_folder {
   &:before {
-    content: $doc_folder; 
+    content: $icon_doc_folder; 
   }
 }
-.doc_page {
+.icon_doc_page {
   &:before {
-    content: $doc_page; 
+    content: $icon_doc_page; 
   }
 }
-.doc_table {
+.icon_doc_table {
   &:before {
-    content: $doc_table; 
+    content: $icon_doc_table; 
   }
 }
-.expand_1 {
+.icon_expand_1 {
   &:before {
-    content: $expand_1; 
+    content: $icon_expand_1; 
   }
 }
-.expand {
+.icon_expand {
   &:before {
-    content: $expand; 
+    content: $icon_expand; 
   }
 }
-.minimize {
+.icon_minimize {
   &:before {
-    content: $minimize; 
+    content: $icon_minimize; 
   }
 }
-.more {
+.icon_more {
   &:before {
-    content: $more; 
+    content: $icon_more; 
   }
 }
-.reduce {
+.icon_reduce {
   &:before {
-    content: $reduce; 
+    content: $icon_reduce; 
   }
 }
-.walk {
+.icon_walk {
   &:before {
-    content: $walk; 
+    content: $icon_walk; 
   }
 }
-.add {
+.icon_add {
   &:before {
-    content: $add; 
+    content: $icon_add; 
   }
 }
-.alert {
+.icon_alert {
   &:before {
-    content: $alert; 
+    content: $icon_alert; 
   }
 }
-.arrow_down_long {
+.icon_arrow_down_long {
   &:before {
-    content: $arrow_down_long; 
+    content: $icon_arrow_down_long; 
   }
 }
-.arrow_down {
+.icon_arrow_down {
   &:before {
-    content: $arrow_down; 
+    content: $icon_arrow_down; 
   }
 }
-.arrow_left_long {
+.icon_arrow_left_long {
   &:before {
-    content: $arrow_left_long; 
+    content: $icon_arrow_left_long; 
   }
 }
-.arrow_left {
+.icon_arrow_left {
   &:before {
-    content: $arrow_left; 
+    content: $icon_arrow_left; 
   }
 }
-.arrow_right_long {
+.icon_arrow_right_long {
   &:before {
-    content: $arrow_right_long; 
+    content: $icon_arrow_right_long; 
   }
 }
-.arrow_right {
+.icon_arrow_right {
   &:before {
-    content: $arrow_right; 
+    content: $icon_arrow_right; 
   }
 }
-.arrow_up_long {
+.icon_arrow_up_long {
   &:before {
-    content: $arrow_up_long; 
+    content: $icon_arrow_up_long; 
   }
 }
-.arrow_up {
+.icon_arrow_up {
   &:before {
-    content: $arrow_up; 
+    content: $icon_arrow_up; 
   }
 }
-.bell {
+.icon_bell {
   &:before {
-    content: $bell; 
+    content: $icon_bell; 
   }
 }
-.binocular {
+.icon_binocular {
   &:before {
-    content: $binocular; 
+    content: $icon_binocular; 
   }
 }
-.books {
+.icon_books {
   &:before {
-    content: $books; 
+    content: $icon_books; 
   }
 }
-.bus {
+.icon_bus {
   &:before {
-    content: $bus; 
+    content: $icon_bus; 
   }
 }
-.calendar {
+.icon_calendar {
   &:before {
-    content: $calendar; 
+    content: $icon_calendar; 
   }
 }
-.call {
+.icon_call {
   &:before {
-    content: $call; 
+    content: $icon_call; 
   }
 }
-.check {
+.icon_check {
   &:before {
-    content: $check; 
+    content: $icon_check; 
   }
 }
-.close {
+.icon_close {
   &:before {
-    content: $close; 
+    content: $icon_close; 
   }
 }
-.coincidence {
+.icon_coincidence {
   &:before {
-    content: $coincidence; 
+    content: $icon_coincidence; 
   }
 }
-.deviation {
+.icon_deviation {
   &:before {
-    content: $deviation; 
+    content: $icon_deviation; 
   }
 }
-.display {
+.icon_display {
   &:before {
-    content: $display; 
+    content: $icon_display; 
   }
 }
-.download {
+.icon_download {
   &:before {
-    content: $download; 
+    content: $icon_download; 
   }
 }
-.edit {
+.icon_edit {
   &:before {
-    content: $edit; 
+    content: $icon_edit; 
   }
 }
-.error {
+.icon_error {
   &:before {
-    content: $error; 
+    content: $icon_error; 
   }
 }
-.filter {
+.icon_filter {
   &:before {
-    content: $filter; 
+    content: $icon_filter; 
   }
 }
-.gps {
+.icon_gps {
   &:before {
-    content: $gps; 
+    content: $icon_gps; 
   }
 }
-.help {
+.icon_help {
   &:before {
-    content: $help; 
+    content: $icon_help; 
   }
 }
-.home {
+.icon_home {
   &:before {
-    content: $home; 
+    content: $icon_home; 
   }
 }
-.info {
+.icon_info {
   &:before {
-    content: $info; 
+    content: $icon_info; 
   }
 }
-.insert {
+.icon_insert {
   &:before {
-    content: $insert; 
+    content: $icon_insert; 
   }
 }
-.linear_view {
+.icon_linear_view {
   &:before {
-    content: $linear_view; 
+    content: $icon_linear_view; 
   }
 }
-.list {
+.icon_list {
   &:before {
-    content: $list; 
+    content: $icon_list; 
   }
 }
-.login {
+.icon_login {
   &:before {
-    content: $login; 
+    content: $icon_login; 
   }
 }
-.logout {
+.icon_logout {
   &:before {
-    content: $logout; 
+    content: $icon_logout; 
   }
 }
-.maintenance {
+.icon_maintenance {
   &:before {
-    content: $maintenance; 
+    content: $icon_maintenance; 
   }
 }
-.map {
+.icon_map {
   &:before {
-    content: $map; 
+    content: $icon_map; 
   }
 }
-.match {
+.icon_match {
   &:before {
-    content: $match; 
+    content: $icon_match; 
   }
 }
-.menu {
+.icon_menu {
   &:before {
-    content: $menu; 
+    content: $icon_menu; 
   }
 }
-.message {
+.icon_message {
   &:before {
-    content: $message; 
+    content: $icon_message; 
   }
 }
-.narrow {
+.icon_narrow {
   &:before {
-    content: $narrow; 
+    content: $icon_narrow; 
   }
 }
-.pin {
+.icon_pin {
   &:before {
-    content: $pin; 
+    content: $icon_pin; 
   }
 }
-.planification {
+.icon_planification {
   &:before {
-    content: $planification; 
+    content: $icon_planification; 
   }
 }
-.play {
+.icon_play {
   &:before {
-    content: $play; 
+    content: $icon_play; 
   }
 }
-.radar {
+.icon_radar {
   &:before {
-    content: $radar; 
+    content: $icon_radar; 
   }
 }
-.refresh {
+.icon_refresh {
   &:before {
-    content: $refresh; 
+    content: $icon_refresh; 
   }
 }
-.remove {
+.icon_remove {
   &:before {
-    content: $remove; 
+    content: $icon_remove; 
   }
 }
-.restart {
+.icon_restart {
   &:before {
-    content: $restart; 
+    content: $icon_restart; 
   }
 }
-.search {
+.icon_search {
   &:before {
-    content: $search; 
+    content: $icon_search; 
   }
 }
-.sort_asc {
+.icon_sort_asc {
   &:before {
-    content: $sort_asc; 
+    content: $icon_sort_asc; 
   }
 }
-.sort_desc {
+.icon_sort_desc {
   &:before {
-    content: $sort_desc; 
+    content: $icon_sort_desc; 
   }
 }
-.stats {
+.icon_stats {
   &:before {
-    content: $stats; 
+    content: $icon_stats; 
   }
 }
-.status {
+.icon_status {
   &:before {
-    content: $status; 
+    content: $icon_status; 
   }
 }
-.stop {
+.icon_stop {
   &:before {
-    content: $stop; 
+    content: $icon_stop; 
   }
 }
-.table {
+.icon_table {
   &:before {
-    content: $table; 
+    content: $icon_table; 
   }
 }
-.trash {
+.icon_trash {
   &:before {
-    content: $trash; 
+    content: $icon_trash; 
   }
 }
-.upload {
+.icon_upload {
   &:before {
-    content: $upload; 
+    content: $icon_upload; 
   }
 }
-.user_add {
+.icon_user_add {
   &:before {
-    content: $user_add; 
+    content: $icon_user_add; 
   }
 }
-.user_remove {
+.icon_user_remove {
   &:before {
-    content: $user_remove; 
+    content: $icon_user_remove; 
   }
 }
-.user {
+.icon_user {
   &:before {
-    content: $user; 
+    content: $icon_user; 
   }
 }
-.users {
+.icon_users {
   &:before {
-    content: $users; 
+    content: $icon_users; 
   }
 }
 
