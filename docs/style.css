@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'thetis_icon';
-  src:  url('fonts/thetis_icon.eot?h1eti8');
-  src:  url('fonts/thetis_icon.eot?h1eti8#iefix') format('embedded-opentype'),
-    url('fonts/thetis_icon.ttf?h1eti8') format('truetype'),
-    url('fonts/thetis_icon.woff?h1eti8') format('woff'),
-    url('fonts/thetis_icon.svg?h1eti8#thetis_icon') format('svg');
+  src:  url('fonts/thetis_icon.eot?x9m9eg');
+  src:  url('fonts/thetis_icon.eot?x9m9eg#iefix') format('embedded-opentype'),
+    url('fonts/thetis_icon.ttf?x9m9eg') format('truetype'),
+    url('fonts/thetis_icon.woff?x9m9eg') format('woff'),
+    url('fonts/thetis_icon.svg?x9m9eg#thetis_icon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,216 +25,243 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon_arrival_time:before {
-  content: "\e93c";
-}
-.icon_departure_time:before {
-  content: "\e93d";
-}
-.icon_doc_folder:before {
-  content: "\e93e";
-}
-.icon_doc_page:before {
-  content: "\e93f";
-}
-.icon_doc_table:before {
-  content: "\e940";
-}
-.icon_expand_1:before {
-  content: "\e941";
-}
-.icon_expand:before {
-  content: "\e942";
-}
-.icon_minimize:before {
-  content: "\e943";
-}
-.icon_more:before {
-  content: "\e944";
-}
-.icon_reduce:before {
-  content: "\e945";
-}
-.icon_walk:before {
-  content: "\e946";
-}
-.icon_add:before {
+.icon_g:before {
   content: "\e900";
 }
-.icon_alert:before {
+.icon_add:before {
   content: "\e901";
 }
-.icon_arrow_down_long:before {
+.icon_alert:before {
   content: "\e902";
 }
-.icon_arrow_down:before {
+.icon_arrival_time:before {
   content: "\e903";
 }
-.icon_arrow_left_long:before {
+.icon_arrow_down_long:before {
   content: "\e904";
 }
-.icon_arrow_left:before {
+.icon_arrow_down:before {
   content: "\e905";
 }
-.icon_arrow_right_long:before {
+.icon_arrow_left_long:before {
   content: "\e906";
 }
-.icon_arrow_right:before {
+.icon_arrow_left:before {
   content: "\e907";
 }
-.icon_arrow_up_long:before {
+.icon_arrow_right_long:before {
   content: "\e908";
 }
-.icon_arrow_up:before {
+.icon_arrow_right:before {
   content: "\e909";
 }
-.icon_bell:before {
+.icon_arrow_up_long:before {
   content: "\e90a";
 }
-.icon_binocular:before {
+.icon_arrow_up:before {
   content: "\e90b";
 }
-.icon_books:before {
+.icon_bell:before {
   content: "\e90c";
 }
-.icon_bus:before {
+.icon_binocular:before {
   content: "\e90d";
 }
-.icon_calendar:before {
+.icon_books:before {
   content: "\e90e";
 }
-.icon_call:before {
+.icon_bus:before {
   content: "\e90f";
 }
-.icon_check:before {
+.icon_calendar:before {
   content: "\e910";
 }
-.icon_close:before {
+.icon_call:before {
   content: "\e911";
 }
-.icon_coincidence:before {
+.icon_check:before {
   content: "\e912";
 }
-.icon_deviation:before {
+.icon_close:before {
   content: "\e913";
 }
-.icon_display:before {
+.icon_coincidence:before {
   content: "\e914";
 }
-.icon_download:before {
+.icon_departure_time:before {
   content: "\e915";
 }
-.icon_edit:before {
+.icon_deviation:before {
   content: "\e916";
 }
-.icon_error:before {
+.icon_display:before {
   content: "\e917";
 }
-.icon_filter:before {
+.icon_doc_folder:before {
   content: "\e918";
 }
-.icon_gps:before {
+.icon_doc_page:before {
   content: "\e919";
 }
-.icon_help:before {
+.icon_doc_table:before {
   content: "\e91a";
 }
-.icon_home:before {
+.icon_download_log:before {
   content: "\e91b";
 }
-.icon_info:before {
+.icon_download_mobile:before {
   content: "\e91c";
 }
-.icon_insert:before {
+.icon_download:before {
   content: "\e91d";
 }
-.icon_linear_view:before {
+.icon_edit:before {
   content: "\e91e";
 }
-.icon_list:before {
+.icon_error:before {
   content: "\e91f";
 }
-.icon_login:before {
+.icon_expand_1:before {
   content: "\e920";
 }
-.icon_logout:before {
+.icon_expand:before {
   content: "\e921";
 }
-.icon_maintenance:before {
+.icon_filter:before {
   content: "\e922";
 }
-.icon_map:before {
+.icon_gps:before {
   content: "\e923";
 }
-.icon_match:before {
+.icon_help:before {
   content: "\e924";
 }
-.icon_menu:before {
+.icon_home:before {
   content: "\e925";
 }
-.icon_message:before {
+.icon_info:before {
   content: "\e926";
 }
-.icon_narrow:before {
+.icon_insert:before {
   content: "\e927";
 }
-.icon_pin:before {
+.icon_linear_view:before {
   content: "\e928";
 }
-.icon_planification:before {
+.icon_list:before {
   content: "\e929";
 }
-.icon_play:before {
+.icon_login:before {
   content: "\e92a";
 }
-.icon_radar:before {
+.icon_logout:before {
   content: "\e92b";
 }
-.icon_refresh:before {
+.icon_mail:before {
   content: "\e92c";
 }
-.icon_remove:before {
+.icon_maintenance:before {
   content: "\e92d";
 }
-.icon_restart:before {
+.icon_map:before {
   content: "\e92e";
 }
-.icon_search:before {
+.icon_match:before {
   content: "\e92f";
 }
-.icon_sort_asc:before {
+.icon_menu:before {
   content: "\e930";
 }
-.icon_sort_desc:before {
+.icon_message:before {
   content: "\e931";
 }
-.icon_stats:before {
+.icon_minimize:before {
   content: "\e932";
 }
-.icon_status:before {
+.icon_more:before {
   content: "\e933";
 }
-.icon_stop:before {
+.icon_narrow:before {
   content: "\e934";
 }
-.icon_table:before {
+.icon_navigator:before {
   content: "\e935";
 }
-.icon_trash:before {
+.icon_pin:before {
   content: "\e936";
 }
-.icon_upload:before {
+.icon_planification:before {
   content: "\e937";
 }
-.icon_user_add:before {
+.icon_play:before {
   content: "\e938";
 }
-.icon_user_remove:before {
+.icon_radar:before {
   content: "\e939";
 }
-.icon_user:before {
+.icon_reduce:before {
   content: "\e93a";
 }
-.icon_users:before {
+.icon_refresh:before {
   content: "\e93b";
+}
+.icon_remove:before {
+  content: "\e93c";
+}
+.icon_restart:before {
+  content: "\e93d";
+}
+.icon_satellite:before {
+  content: "\e93e";
+}
+.icon_search:before {
+  content: "\e93f";
+}
+.icon_sort_asc:before {
+  content: "\e940";
+}
+.icon_sort_desc:before {
+  content: "\e941";
+}
+.icon_stats:before {
+  content: "\e942";
+}
+.icon_status:before {
+  content: "\e943";
+}
+.icon_stop:before {
+  content: "\e944";
+}
+.icon_table:before {
+  content: "\e945";
+}
+.icon_thetis_logo:before {
+  content: "\e946";
+}
+.icon_traffic_light:before {
+  content: "\e947";
+}
+.icon_trash:before {
+  content: "\e948";
+}
+.icon_upload:before {
+  content: "\e949";
+}
+.icon_user_add:before {
+  content: "\e94a";
+}
+.icon_user_remove:before {
+  content: "\e94b";
+}
+.icon_user:before {
+  content: "\e94c";
+}
+.icon_users:before {
+  content: "\e94d";
+}
+.icon_walk:before {
+  content: "\e94e";
+}
+.icon_wifi:before {
+  content: "\e94f";
 }

@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?h1eti8');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?h1eti8#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?h1eti8') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?h1eti8') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?h1eti8##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?x9m9eg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?x9m9eg#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?x9m9eg') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?x9m9eg') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?x9m9eg##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,59 +27,9 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon_arrival_time {
+.icon_g {
   &:before {
-    content: $icon_arrival_time; 
-  }
-}
-.icon_departure_time {
-  &:before {
-    content: $icon_departure_time; 
-  }
-}
-.icon_doc_folder {
-  &:before {
-    content: $icon_doc_folder; 
-  }
-}
-.icon_doc_page {
-  &:before {
-    content: $icon_doc_page; 
-  }
-}
-.icon_doc_table {
-  &:before {
-    content: $icon_doc_table; 
-  }
-}
-.icon_expand_1 {
-  &:before {
-    content: $icon_expand_1; 
-  }
-}
-.icon_expand {
-  &:before {
-    content: $icon_expand; 
-  }
-}
-.icon_minimize {
-  &:before {
-    content: $icon_minimize; 
-  }
-}
-.icon_more {
-  &:before {
-    content: $icon_more; 
-  }
-}
-.icon_reduce {
-  &:before {
-    content: $icon_reduce; 
-  }
-}
-.icon_walk {
-  &:before {
-    content: $icon_walk; 
+    content: $icon_g; 
   }
 }
 .icon_add {
@@ -90,6 +40,11 @@ i {
 .icon_alert {
   &:before {
     content: $icon_alert; 
+  }
+}
+.icon_arrival_time {
+  &:before {
+    content: $icon_arrival_time; 
   }
 }
 .icon_arrow_down_long {
@@ -177,6 +132,11 @@ i {
     content: $icon_coincidence; 
   }
 }
+.icon_departure_time {
+  &:before {
+    content: $icon_departure_time; 
+  }
+}
 .icon_deviation {
   &:before {
     content: $icon_deviation; 
@@ -185,6 +145,31 @@ i {
 .icon_display {
   &:before {
     content: $icon_display; 
+  }
+}
+.icon_doc_folder {
+  &:before {
+    content: $icon_doc_folder; 
+  }
+}
+.icon_doc_page {
+  &:before {
+    content: $icon_doc_page; 
+  }
+}
+.icon_doc_table {
+  &:before {
+    content: $icon_doc_table; 
+  }
+}
+.icon_download_log {
+  &:before {
+    content: $icon_download_log; 
+  }
+}
+.icon_download_mobile {
+  &:before {
+    content: $icon_download_mobile; 
   }
 }
 .icon_download {
@@ -200,6 +185,16 @@ i {
 .icon_error {
   &:before {
     content: $icon_error; 
+  }
+}
+.icon_expand_1 {
+  &:before {
+    content: $icon_expand_1; 
+  }
+}
+.icon_expand {
+  &:before {
+    content: $icon_expand; 
   }
 }
 .icon_filter {
@@ -252,6 +247,11 @@ i {
     content: $icon_logout; 
   }
 }
+.icon_mail {
+  &:before {
+    content: $icon_mail; 
+  }
+}
 .icon_maintenance {
   &:before {
     content: $icon_maintenance; 
@@ -277,9 +277,24 @@ i {
     content: $icon_message; 
   }
 }
+.icon_minimize {
+  &:before {
+    content: $icon_minimize; 
+  }
+}
+.icon_more {
+  &:before {
+    content: $icon_more; 
+  }
+}
 .icon_narrow {
   &:before {
     content: $icon_narrow; 
+  }
+}
+.icon_navigator {
+  &:before {
+    content: $icon_navigator; 
   }
 }
 .icon_pin {
@@ -302,6 +317,11 @@ i {
     content: $icon_radar; 
   }
 }
+.icon_reduce {
+  &:before {
+    content: $icon_reduce; 
+  }
+}
 .icon_refresh {
   &:before {
     content: $icon_refresh; 
@@ -315,6 +335,11 @@ i {
 .icon_restart {
   &:before {
     content: $icon_restart; 
+  }
+}
+.icon_satellite {
+  &:before {
+    content: $icon_satellite; 
   }
 }
 .icon_search {
@@ -352,6 +377,16 @@ i {
     content: $icon_table; 
   }
 }
+.icon_thetis_logo {
+  &:before {
+    content: $icon_thetis_logo; 
+  }
+}
+.icon_traffic_light {
+  &:before {
+    content: $icon_traffic_light; 
+  }
+}
 .icon_trash {
   &:before {
     content: $icon_trash; 
@@ -380,6 +415,16 @@ i {
 .icon_users {
   &:before {
     content: $icon_users; 
+  }
+}
+.icon_walk {
+  &:before {
+    content: $icon_walk; 
+  }
+}
+.icon_wifi {
+  &:before {
+    content: $icon_wifi; 
   }
 }
 
