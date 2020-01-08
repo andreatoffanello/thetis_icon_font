@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'thetis_icon';
-  src:  url('fonts/thetis_icon.eot?m0z0yk');
-  src:  url('fonts/thetis_icon.eot?m0z0yk#iefix') format('embedded-opentype'),
-    url('fonts/thetis_icon.ttf?m0z0yk') format('truetype'),
-    url('fonts/thetis_icon.woff?m0z0yk') format('woff'),
-    url('fonts/thetis_icon.svg?m0z0yk#thetis_icon') format('svg');
+  src:  url('fonts/thetis_icon.eot?9cj3c6');
+  src:  url('fonts/thetis_icon.eot?9cj3c6#iefix') format('embedded-opentype'),
+    url('fonts/thetis_icon.ttf?9cj3c6') format('truetype'),
+    url('fonts/thetis_icon.woff?9cj3c6') format('woff'),
+    url('fonts/thetis_icon.svg?9cj3c6#thetis_icon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-i {
+[class^="icon_"], [class*=" icon_"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'thetis_icon' !important;
   speak: none;
@@ -316,30 +316,36 @@ i {
 .icon_traffic_light:before {
   content: "\e960";
 }
-.icon_trash:before {
+.icon_tram_dis:before {
   content: "\e961";
 }
-.icon_upload:before {
+.icon_tram:before {
   content: "\e962";
 }
-.icon_user_add:before {
+.icon_trash:before {
   content: "\e963";
 }
-.icon_user_remove:before {
+.icon_upload:before {
   content: "\e964";
 }
-.icon_user:before {
+.icon_user_add:before {
   content: "\e965";
 }
-.icon_users:before {
+.icon_user_remove:before {
   content: "\e966";
 }
-.icon_walk:before {
+.icon_user:before {
   content: "\e967";
 }
-.icon_wheelchair:before {
+.icon_users:before {
   content: "\e968";
 }
-.icon_wifi:before {
+.icon_walk:before {
   content: "\e969";
+}
+.icon_wheelchair:before {
+  content: "\e96a";
+}
+.icon_wifi:before {
+  content: "\e96b";
 }

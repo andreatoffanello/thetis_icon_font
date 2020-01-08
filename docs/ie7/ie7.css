@@ -289,31 +289,37 @@
 .icon_traffic_light {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe960;');
 }
-.icon_trash {
+.icon_tram_dis {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe961;');
 }
-.icon_upload {
+.icon_tram {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe962;');
 }
-.icon_user_add {
+.icon_trash {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe963;');
 }
-.icon_user_remove {
+.icon_upload {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe964;');
 }
-.icon_user {
+.icon_user_add {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe965;');
 }
-.icon_users {
+.icon_user_remove {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe966;');
 }
-.icon_walk {
+.icon_user {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe967;');
 }
-.icon_wheelchair {
+.icon_users {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe968;');
 }
-.icon_wifi {
+.icon_walk {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe969;');
+}
+.icon_wheelchair {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe96a;');
+}
+.icon_wifi {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe96b;');
 }
 

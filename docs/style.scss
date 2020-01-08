@@ -2,17 +2,17 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?m0z0yk');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?m0z0yk#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?m0z0yk') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?m0z0yk') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?m0z0yk##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?9cj3c6');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?9cj3c6#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?9cj3c6') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?9cj3c6') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?9cj3c6##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-i {
+[class^="icon_"], [class*=" icon_"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$icomoon-font-family}' !important;
   speak: none;
@@ -510,6 +510,16 @@ i {
 .icon_traffic_light {
   &:before {
     content: $icon_traffic_light; 
+  }
+}
+.icon_tram_dis {
+  &:before {
+    content: $icon_tram_dis; 
+  }
+}
+.icon_tram {
+  &:before {
+    content: $icon_tram; 
   }
 }
 .icon_trash {
