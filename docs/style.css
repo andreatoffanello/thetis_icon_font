@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'thetis_icon';
-  src:  url('fonts/thetis_icon.eot?9cj3c6');
-  src:  url('fonts/thetis_icon.eot?9cj3c6#iefix') format('embedded-opentype'),
-    url('fonts/thetis_icon.ttf?9cj3c6') format('truetype'),
-    url('fonts/thetis_icon.woff?9cj3c6') format('woff'),
-    url('fonts/thetis_icon.svg?9cj3c6#thetis_icon') format('svg');
+  src:  url('fonts/thetis_icon.eot?lloklw');
+  src:  url('fonts/thetis_icon.eot?lloklw#iefix') format('embedded-opentype'),
+    url('fonts/thetis_icon.ttf?lloklw') format('truetype'),
+    url('fonts/thetis_icon.woff?lloklw') format('woff'),
+    url('fonts/thetis_icon.svg?lloklw#thetis_icon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,36 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon_basegrid_1:before {
+  content: "\e96c";
+}
+.icon_basegrid_2:before {
+  content: "\e96d";
+}
+.icon_basegrid_3:before {
+  content: "\e96e";
+}
+.icon_basegrid_4:before {
+  content: "\e96f";
+}
+.icon_basegrid_5:before {
+  content: "\e970";
+}
+.icon_basegrid_6:before {
+  content: "\e971";
+}
+.icon_basegrid_7:before {
+  content: "\e972";
+}
+.icon_basegrid_8:before {
+  content: "\e973";
+}
+.icon_basegrid_9:before {
+  content: "\e974";
+}
+.icon_basegrid_10:before {
+  content: "\e975";
+}
 .icon_g:before {
   content: "\e900";
 }

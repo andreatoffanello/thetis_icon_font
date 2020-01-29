@@ -1,3 +1,33 @@
+.icon_basegrid_1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe96c;');
+}
+.icon_basegrid_2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe96d;');
+}
+.icon_basegrid_3 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe96e;');
+}
+.icon_basegrid_4 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe96f;');
+}
+.icon_basegrid_5 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe970;');
+}
+.icon_basegrid_6 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe971;');
+}
+.icon_basegrid_7 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe972;');
+}
+.icon_basegrid_8 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe973;');
+}
+.icon_basegrid_9 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe974;');
+}
+.icon_basegrid_10 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe975;');
+}
 .icon_g {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe900;');
 }
