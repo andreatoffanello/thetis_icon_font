@@ -1,0 +1,99 @@
+.button {
+	display: inline-grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+	grid-template-areas: "label icon";
+	border: .2rem solid $main;
+	padding: .8rem 2.4rem;
+	background: $main;
+
+	transition: .3s ease-in-out;
+	//border-radius: 24px;
+
+	&.icon {
+		grid-template-columns: 1fr auto;
+		grid-gap: .8rem;
+	}
+
+	&.only_icon,
+	&.only_icon.alt,
+	&.only_icon.secondary {
+		padding: .8rem;
+	}
+
+	* {
+		color: $white;
+		font-size: $regular;
+	}
+
+	span {
+		grid-area: label;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	i {
+		grid-area: icon;
+	}
+
+	&:hover {
+		background: $white;
+		transition: .3s ease-in-out;
+
+		* {
+			color: $main;
+		}
+	}
+
+	&.alt{
+		border: .2rem solid $main;
+		padding: .8rem 2.4rem;
+		background: $white;
+
+		* {
+			color: $main;
+		}
+
+		&:hover {
+			background: $main;
+			transition: .3s ease-in-out;
+
+			* {
+				color: $white;
+			}
+		}
+	}
+
+	&.secondary{
+		border: .2rem solid $second;
+		padding: .8rem 2.4rem;
+		background: $second;
+
+		* {
+			color: $white;
+		}
+
+		&:hover {
+			background: $white;
+			transition: .3s ease-in-out;
+
+			* {
+				color: $second;
+			}
+		}
+	}
+
+
+	&.disabled {
+		cursor: unset;
+		background: $gray;
+		border-color: $gray;
+
+		&:hover {
+
+			* {
+				color: $white;
+			}
+		}
+	}
+}

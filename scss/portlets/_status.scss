@@ -1,0 +1,60 @@
+.status_head {
+    display: grid;
+    grid-template-columns: 3.2rem repeat(6, 1fr) 3.2rem;
+    margin-top: 3.2rem;
+    margin-bottom: 1.6rem;
+    grid-gap: .8rem;
+
+    .head_item {
+        text-align: center;
+        font-size: $regular;
+        font-weight: 600;
+        font-color: $dark;
+    }
+
+    .status_bar {
+        height: .4rem;
+        width: 100%;
+        margin-top: .8rem;
+
+        &.advance {
+            background: $advance;
+        }
+
+        &.ontime {
+            background: $ontime;
+        }
+
+        &.late {
+            background: $late;
+        }
+
+        &.offpath {
+            background: $offpath;
+        }
+
+        &.deadrun {
+            background: $deadrun;
+        }
+
+        &.virtual {
+            background: $virtual;
+        }
+    }
+}
+
+.status_line {
+
+    .line_name {
+
+    }
+
+    .status_list {
+
+        .status_bar {
+            transition: .3s $ease;
+        }
+    }
+
+
+}

@@ -1,0 +1,20 @@
+.sh {
+	box-shadow: 0rem .5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+i {
+	font-weight: 300!important;
+}
+
+.link {
+	color: $main;
+	align-items: center;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto auto;
+	grid-gap: .8rem;
+}
+
+
+
+$ease: cubic-bezier(.5, 0, .3, 1);

@@ -1,0 +1,163 @@
+@import "colors";
+@import "fonts";
+@import "reset";
+@import "helpers";
+
+@import "layout/grid";
+@import "layout/page";
+
+@import "navigation/navigation";
+@import "navigation/side";
+
+@import "sections/hero";
+@import "sections/side";
+@import "sections/content";
+@import "sections/footer";
+
+@import "elements/cards";
+@import "elements/buttons";
+@import "elements/popups";
+@import "elements/forms";
+
+@import "portlets/portlet";
+@import "portlets/status";
+
+
+body {
+	background: $light;
+	font-family: $font;
+}
+
+
+// FIX LIFERAY
+.portlet-dockbar {
+	position: absolute;
+}
+
+.aui {
+
+	body, body #wrapper {
+		font-family: $font !important;
+	}
+
+	.navbar .nav li a {
+		color: #ffffff;
+	}
+
+	.navbar-inner {
+		display: inline-block;
+	}
+
+	.navbar .nav li.lfr-nav-item {
+		float: none;
+		display: block;
+	}
+
+	a {
+		color: inherit !important;
+
+		&:hover {
+			text-decoration: none!important;
+			color:inherit !important;
+		}
+	}
+
+	.nav-item-label,
+	.user-full-nam {
+		color: #ffffff;
+	}
+
+	.dockbar-split .dockbar .navbar-inner .nav-add-controls{
+	    top: 75% !important;
+	}
+
+	.dropdown-menu .nav-item-label {
+		color: #333333!important;
+	}
+}
+
+.aui .dockbar-split .dockbar .navbar-inner .nav > li > a {
+	background-color: #033e8c;
+}
+
+.aui .dockbar-split .dockbar .navbar-inner .nav li.dropdown.open > .dropdown-toggle {
+	background-color: #033e8c!important;
+	color: #ffffff!important;
+}
+
+.aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li > a:hover {
+    background-color: #fff;
+}
+
+.aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li > a {
+    background-color: #fff;
+}
+
+.aui .dockbar-split .dockbar .navbar-inner .nav > li {
+    background-color: #fff;
+}
+
+.aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li > a.toggle-controls-link {
+    background-color: #D3D3D3;
+}
+
+.aui .dockbar-split.controls-hidden .dockbar .navbar-inner .nav-add-controls > li.toggle-controls > .toggle-controls-link {
+    background: #6AC1F3;
+}
+
+.aui .dockbar .user-avatar img {
+    width: 23px;
+    border-radius: 50%;
+    border:3px solid #fff;
+}
+
+.dockbar-user-notifications .dropdown-toggle .user-notifications-count {
+    background-color: #fff;
+}
+
+.aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li > a:hover {
+    background-color: #D3D3D3;
+}
+.aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li > a {
+    background-color: #fff;
+}
+.aui .dockbar-split .dockbar .navbar-inner .nav > li {
+    background-color: #fff;
+}
+.aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li > a.toggle-controls-link {
+    background-color: #D3D3D3;
+}
+.aui .dockbar-split.controls-hidden .dockbar .navbar-inner .nav-add-controls > li.toggle-controls > .toggle-controls-link {
+    background: #6AC1F3;
+}
+.aui .dockbar-split .dockbar .navbar-inner .nav-add-controls {
+    top: 75%!important;
+}
+.aui .dockbar .user-avatar img {
+    width: 23px;
+    border-radius: 50%;
+    border:3px solid #fff;
+}
+.dockbar-user-notifications .dropdown-toggle .user-notifications-count {
+    background-color: #fff;
+}
+.aui .navbar-inner {
+    background-image: linear-gradient(to bottom, #033E8C, #033E8C);
+}
+.aui a [class^="icon-"], .aui a [class*=" icon-"] {
+    display: inline;
+    color: white;
+}
+.aui .dockbar-split .dockbar .navbar-inner .nav > li > a {
+    height: 2rem;
+}
+.aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li > a {
+    background-color: #033E8C;
+}
+.aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li > a [class^="icon-"], .aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li > a [class^="icon-"], .aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li > a [class*=" icon-"] {
+    vertical-align: inherit;
+}
+
+.aui .navbar .nav li.dropdown.open > .dropdown-toggle, .aui .navbar .nav li.dropdown.active > .dropdown-toggle, .aui .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    background-color: inherit !important;
+}

@@ -1,0 +1,10 @@
+.search_form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+
+    input {
+        border: none;
+        padding-left: 1.6rem;
+        font-size: $regular;
+    }
+}

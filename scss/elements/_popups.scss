@@ -1,0 +1,55 @@
+.popups {
+	position: fixed;
+	display: grid;
+	bottom: 0;
+}
+
+
+.popup {
+	position: fixed;
+	background: $white;
+	top: 25%;
+	left:25%;
+
+	.popup_head {
+		display: grid;
+		grid-template-columns: 1fr auto;
+		background: $main;
+		font-size: $regular;
+		color: $white;
+		align-items: center;
+		grid-gap: 1.6rem;
+
+		.popup_title {
+			padding-left: 1.6rem;
+			padding-right: 1.6rem;
+		}
+
+		.popup_menu {
+
+			.popup_btn {
+				display: inline-grid;
+			    height: 3.2rem;
+			    width: 3.2rem;
+			    place-items: center;
+			    cursor: pointer;
+
+			    i {
+			    }
+
+			    &:hover {
+			    	background: $main_light;
+			    }
+			}
+		}
+	}
+
+	.popup_content {
+		padding: 1.6rem;
+		font-size: $regular;
+
+		h3 {
+			margin-bottom: 1.6rem;
+		}
+	}
+}

@@ -1,0 +1,30 @@
+.hero_head {
+	 padding: 6.4rem;
+
+	.hero_content {
+
+		.hero_logo {
+		    width: 12.8rem;
+    		opacity: 1;
+    		margin: 1.6rem auto;
+    		display: block;
+		}
+
+		.hero_title,
+		.hero_sub {
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: 900;
+			letter-spacing: .1em;
+			color: $main;
+		}
+
+		.divider {
+			height: .4rem;
+			background: $main;
+			width: 3.2rem;
+			margin: 1.6rem auto;
+		}
+
+	}
+}
